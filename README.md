@@ -26,5 +26,13 @@ Package the app
 ### 3. java -jar target\mycoolapp-0.0.1-SNAPSHOT.jar
 Our app is up and running
 
+## Spring Container 
+![image](https://github.com/meghavijadav/java_springboot/assets/100013496/643aedff-71c9-436b-bc60-3bc96ed8bf76)
+
+###Primary Functions 
+1. Create and Manage objects (Inversion of Control)
+2. Inject Object Dependencies (Dependency Injection)
+
+
    
 
