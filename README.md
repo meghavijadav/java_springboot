@@ -54,7 +54,12 @@ Our app is up and running
 
 It marks the class as a Spring Bean which is just a regular Java class that is managed by Spring. It also makes the bean available for dependency injection
 
+### Development Process- Setter Injection
 
+1. Create setter method(s) in your class for injection
+2. Configure the dependency injection with @Autowired Annotation
+
+   
    
 
    
