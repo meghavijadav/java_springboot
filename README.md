@@ -59,6 +59,10 @@ It marks the class as a Spring Bean which is just a regular Java class that is m
 1. Create setter method(s) in your class for injection
 2. Configure the dependency injection with @Autowired Annotation
 
+### Multiple Coach Implementation 
+![image](https://github.com/meghavijadav/java_springboot/assets/100013496/3c6fee66-9147-4c6e-bece-044ce4cf3643)
+
+
    
    
 
