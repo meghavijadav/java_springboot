@@ -71,9 +71,16 @@ It marks the class as a Spring Bean which is just a regular Java class that is m
 1. @Qualifier has a higher priority and is more specific - recommended
 2.  @Primary leaves it up to the implementation class
 3.  Could have an error of multiple @Primary class
-4.  @Qualifier allows you to be very specific on which bean you want 
+4.  @Qualifier allows you to be very specific on which bean you want
 
+### Lazy Initialization 
+1. Instead of creating all beans upfront we can specify a Lazy Initialization
+2. A bean will be only initialized when- a. It is needed for dependency injection b. or it is explicitly requested
+3. To configure other beans we need to add @Lazy to each class
+4. Turns into a very tedious work for a large number of classes
+   ![image](https://github.com/meghavijadav/java_springboot/assets/100013496/9995ee0f-eb21-4b84-b910-85042d02898e)
 
+5. All beans are lazy and no beans are created until needed Including our Demo Controller
 
    
    
