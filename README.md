@@ -85,9 +85,17 @@ It marks the class as a Spring Bean which is just a regular Java class that is m
 ![image](https://github.com/meghavijadav/java_springboot/assets/100013496/15dbe404-8895-4c44-85f7-665b0b16fd37)
 ![image](https://github.com/meghavijadav/java_springboot/assets/100013496/ce85af57-aa59-4c16-8276-af83485a7ea4)
 
+### Bean Scope
+1. It refers to the lifecycle of a Bean
+2. Default scope - singleton
+![image](https://github.com/meghavijadav/java_springboot/assets/100013496/723e0dd7-2f00-41f1-bd18-0fc8a1b4154d)
 
    
-   
+### Bean Lifecycle Methods
+![image](https://github.com/meghavijadav/java_springboot/assets/100013496/0b398d61-14b6-4fcb-9d29-bb7b07341bca)
+Development Process
+1. Define your methods for init and destroy
+2. Add annotations: @PostContruct and @PreDestroy
 
    
 
