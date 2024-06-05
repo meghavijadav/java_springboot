@@ -62,6 +62,18 @@ It marks the class as a Spring Bean which is just a regular Java class that is m
 ### Multiple Coach Implementation 
 ![image](https://github.com/meghavijadav/java_springboot/assets/100013496/3c6fee66-9147-4c6e-bece-044ce4cf3643)
 
+### @Primary- Only One
+1. When using @Primary, can have only one for multiple implementations.
+2. If you mark multiple classes with @Primary ... we have a problem
+   ![image](https://github.com/meghavijadav/java_springboot/assets/100013496/f4117725-f0a0-47f8-9f25-d580a8290d99)
+
+### Which one @Qualifier and @Primary?
+1. @Qualifier has a higher priority and is more specific - recommended
+2.  @Primary leaves it up to the implementation class
+3.  Could have an error of multiple @Primary class
+4.  @Qualifier allows you to be very specific on which bean you want 
+
+
 
    
    
