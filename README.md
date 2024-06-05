@@ -78,9 +78,13 @@ It marks the class as a Spring Bean which is just a regular Java class that is m
 2. A bean will be only initialized when- a. It is needed for dependency injection b. or it is explicitly requested
 3. To configure other beans we need to add @Lazy to each class
 4. Turns into a very tedious work for a large number of classes
-   ![image](https://github.com/meghavijadav/java_springboot/assets/100013496/9995ee0f-eb21-4b84-b910-85042d02898e)
+5.  ![image](https://github.com/meghavijadav/java_springboot/assets/100013496/9995ee0f-eb21-4b84-b910-85042d02898e)
+6. All beans are lazy and no beans are created until needed Including our Demo Controller
 
-5. All beans are lazy and no beans are created until needed Including our Demo Controller
+![image](https://github.com/meghavijadav/java_springboot/assets/100013496/27b94733-a5cd-4c14-81fa-7430a2ebc55e)
+![image](https://github.com/meghavijadav/java_springboot/assets/100013496/15dbe404-8895-4c44-85f7-665b0b16fd37)
+![image](https://github.com/meghavijadav/java_springboot/assets/100013496/ce85af57-aa59-4c16-8276-af83485a7ea4)
+
 
    
    
